@@ -1,5 +1,6 @@
 import math
 from math import tan
+
 a = 5  # create a variable called a and assign it a value of 5
 a += 1  # use the increment operator to increase the value of a by 1
 a += 5  # use the increment operator to increase a by 5
@@ -13,7 +14,7 @@ x = c // a  # use the floor division operator
 y = round(c / a)  # use rounding to get the next highest integer
 r = c % a  # use fmod from math module to find the remainder of the division c/a
 R = r / a
-print(math.tan(D))
+print(math.sin(D))
 print(tan(D))
 print(f"R = {R:0.3f}")
-print("tan(D) = {:0.3f}".format(tan(D)))
+print("tan(D) = {:0.3f}".format(math.tan(D)))
